@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushree Sangita</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca203865f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                   
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p id="tag">Tech Enthusiast</p>
+                <h1> Hi, I'm <span>Sushree Sangita</span><br>from Bhubaneswar</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="sushreee.jpg" ></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p id="aboutme">Passionate computer science undergrad with a knack for coding and problem-solving. Dedicated to continuous learning and seeking opportunities to apply my skills in a collaborative and innovative environment. Let's connect and make an impact together!
+
+                        I am always in awe of the change technology drives in the world. Certain skills I've worked with include Data Structures and Algorithms (Java), Front-end Development (HTML5, CSS, JavaScript), C programming language, C++ programming language. And what I might lack in skills I make up for with my determination to learn. 
+                        
+                        Being a tech enthusiast, I'm a nature lover and I love spending my free time exploring nature.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>Front-end Development</span><br>HTML,CSS & JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="achievements">
+                            <ul>
+                                <li><span>Third Rank Holder in Open Innovation</span><br>All India level IC Hack2.0 conducted by IEEE 2023</li>
+                                <li><span>One of the Top 50 teams</span><br>IDE BootCamp 2023 conducted by G20 at IIT,BBSR</li>
+                                <li><span>Position Holder</span><br>Inter-college Debate,Essay and Seminar</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2026</span><br>Computer Science & Engineering at Trident Academy of Technology,Bhubaneswar</li>
+                                <li><span>2009-2022</span><br>DAV Public School,KalingaNagar,Bhubaneswar</li>
+                               
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing of Beautiful Web page Applications</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Frontend Applications</h2>
+                    <p>Making of Beautiful Frontend Web page Applications</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing of Beautiful Web/App Application Interfaces</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot (3).png">
+                    <div class="layer">
+                        <h3>"Mo Market":Your One-Stop Destination for all your needs!</h3>
+                        <p> Platform to connect small artisans and women entrepreneurs,unleashing Power of their Originality. </p>
+                        <a href="https://sushreesangita04.github.io/Mo-Market/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (11).png">
+                    <div class="layer">
+                        <h3>"Weather Wise": Stay Weather Ready, Anytime, Anywhere!</h3>
+                        <p> Detects the weather condition , Temperature , Humidity & Wind Speed of any city world wide.
+                        </p>
+                        <a href="https://sushreesangita04.github.io/WeatherWise/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (4).png">
+                    <div class="layer">
+                        <h3>E-commerce Platform connecting Young Entrepreneurs!</h3>
+                        <p> Your One-Stop Destination for all your needs! </p>
+                        <a href="https://sushreesangita04.github.io/Mo-Market/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://sushreesangita04.github.io/WeatherWise/" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sushreesangitaroutaray2004@gmail.com</p>
+                    <!-- <p>0123456789</p> -->
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sushree-sangita-routaray-683a23247/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SushreeSangita04"><i class="fa-brands fa-square-github"></i></i></a>
+                        <a href="https://twitter.com/Sushree210"><i class="fa-brands fa-square-x-twitter"></i></i></a> 
+                        <a href="https://www.instagram.com/sushhrayyy/"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="Sushree SangitaRoutaray Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="Email" placeholder="Your e-mail" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form> 
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sushree. Made with <i class="fa-solid fa-heart"></i> by Sushree Sangita</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+        <script>
+            var sidemeu= document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwacp6IguLV0bfL-6ll0Is1Zy-0Rzo8zTiYeq3wBISl9VXpX3ctoYsTf1P0XzxUT1GH/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg");
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Response submitted successfully."
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>
